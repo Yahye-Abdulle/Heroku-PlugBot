@@ -72,4 +72,4 @@ async def bomb(ctx, member: discord.Member,*arg):
     else:
         await ctx.send("Please purchase more credits!")
 
-bot.run(TOKEN)
+bot.run(process.env.BOT_TOKEN)
